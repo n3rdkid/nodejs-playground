@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/n3rdkid/nodejs-playground#readme",
   "dependencies": {
+    "@types/cors": "^2.8.9",
     "@types/express": "^4.17.11",
     "cors": "^2.8.5",
     "express": "^4.17.1",
