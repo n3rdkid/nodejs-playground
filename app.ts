@@ -3,7 +3,9 @@ import { body, validationResult } from "express-validator";
 import { spawn } from "child_process";
 import fs from "fs"
 import { v4 as uuidv4 } from 'uuid';
+import cors from "cors"
 const app = express();
+app.use(cors());
 
 app.use(express.json());
 
